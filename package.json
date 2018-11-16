@@ -1,0 +1,38 @@
+{
+  "name": "three-typescript-starter",
+  "version": "1.0.0",
+  "description": "three.js + typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --open --mode development --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinqy520/three-typescript-starter.git"
+  },
+  "keywords": [],
+  "author": "Huang Qi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinqy520/three-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/pinqy520/three-typescript-starter#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "json-loader": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@types/three": "latest",
+    "three": "latest"
+  }
+}
