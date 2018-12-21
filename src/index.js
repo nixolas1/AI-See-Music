@@ -56,5 +56,5 @@ class Main {
     }
 }
 
-let main = new Main();
+let main = new Main()
 main.init()
