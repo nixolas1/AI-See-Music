@@ -2,6 +2,7 @@
 import './style.css'
 // three.js
 import * as THREE from 'three'
+import Ear from './ears/ear'
 
 class Main {
     scene = new THREE.Scene()
@@ -58,3 +59,4 @@ class Main {
 
 let main = new Main()
 main.init()
+let ear = new Ear("get-free")
