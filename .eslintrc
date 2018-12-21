@@ -19,8 +19,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
-        "jest"
+        "react"
     ],
     "settings": {
         "react": {
