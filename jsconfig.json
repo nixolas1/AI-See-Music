@@ -3,6 +3,10 @@
         "node_modules/"
     ],
     "compilerOptions": {
-        "experimentalDecorators": true
-    }
+        "experimentalDecorators": true,
+        "target": "ES6"
+    },
+    "include": [
+        "src/**/*"
+    ]
 }
