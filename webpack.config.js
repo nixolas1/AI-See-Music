@@ -11,7 +11,7 @@ module.exports = {
     mode: 'development',
     devtool: 'source-map',
     entry: [
-        './src/index.ts'
+        './src/index.js'
     ],
     output: {
         path: __dirname + '/dist',
@@ -20,8 +20,11 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.ts$/,
-                use: 'awesome-typescript-loader'
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                },
             }, {
                 test: /\.css$/,
                 exclude: /[\/\\]src[\/\\]/,
