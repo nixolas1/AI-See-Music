@@ -42,3 +42,4 @@ yarn.lock
 
 # awesome-typescript
 .awcache
+\.idea/
